@@ -1,7 +1,32 @@
 aid: stablebrowse
-name: Stablebrowse
-description: Stablebrowse is a company surfaced as a portfolio company of y-combinator and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/stablebrowse.png
+name: StableBrowse
+description: >-
+  StableBrowse is a San Francisco startup (Y Combinator, Spring 2026) building
+  browser infrastructure and real-world data pipelines for AI agents and AI labs.
+  Its platform transforms dynamic websites into structured knowledge and
+  execution graphs so agents can reliably complete web-based tasks — form
+  filling, data extraction, authentication flows, and website change detection —
+  without relearning workflows on every run, and it sources, labels, and enriches
+  hard-to-find long-tail, gated, and ephemeral web data until it is worth
+  training on. StableBrowse markets performance gains including large reductions
+  in token usage, faster workflow execution, and high task success rates across
+  use cases such as price monitoring, loan applications, CRM updates, travel
+  booking, and navigation of legacy enterprise systems. The company was founded
+  by Jay Mehta, Deepit Shah, and Somansh Shah (all formerly of Amazon). As of
+  this profile the public site is a marketing landing page with no published API,
+  developer documentation, or developer portal.
 url: https://raw.githubusercontent.com/api-evangelist/stablebrowse/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +36,29 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- AI Agents
+- Browser Infrastructure
+- Web Automation
+- Data Labeling
+- Training Data
+- Web Scraping
+- Y Combinator
 apis: []
+common:
+- type: DomainSecurity
+  url: security/stablebrowse-domain-security.yml
+- type: Website
+  url: https://stablebrowse.ai/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
