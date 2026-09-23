@@ -1,0 +1,26 @@
+# Front Door AI Index — stablebrowse — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: stablebrowse
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: stablebrowse.ai
+  final_host: stablebrowse.ai
+  ownership: own
+  owner: stablebrowse
+  shares_host_with: null
+  inherited_from: null
+  verdict: scored
+  score: 6
+  host_score: 6
+  density: 10.43
+  words: 575
+  tiers:
+    agentic: 0
+    core: 6
+    model: 0
+  ambiguous: 1
+  top_terms:
+    AI: 6
+    agent: 1
